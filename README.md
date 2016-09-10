@@ -16,4 +16,6 @@ stow git
 
 ### `~/.gitconfig.local`
 
-If `~/.gitconfig.local` exists, it will be included.
+If `~/.gitconfig.local` exists, it will be included. The file is included in 
+at the end of `.gitconfig`, thus, allowing you to add or override options in
+`.gitconfig`.
