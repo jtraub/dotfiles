@@ -1,0 +1,35 @@
+[include]
+	path = ~/.gitconfig.local
+
+[core]
+	editor = vim
+
+[color]
+	ui = auto
+
+[alias]
+	unstage = reset --
+	discard = checkout --
+	staged = diff --cached
+	tags = tag
+	remotes = remote -v
+	branches = branch -a
+	amend = commit --amend
+	# short aliases for the most common commands
+	s = status
+	l = log
+	c = commit
+	d = diff
+	a = add
+
+	# Mark a file as "assume unchanged", which means that Git will treat it
+	# as though there are no changes to it even if there are. Useful for
+	# temporary changes to tracked files
+	assume = update-index --assume-unchanged
+	# Reverse the above
+	unassume = update-index --no-assume-unchanged
+	# Show the files that are currently assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+
+[push]
+	default = simple
