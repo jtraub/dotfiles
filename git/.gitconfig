@@ -2,6 +2,9 @@
 	editor = vim
 	excludesfile = ~/.gitignore
 
+[commit]
+	template = ~/.git_commit_message.txt
+
 [color]
 	ui = auto
 
