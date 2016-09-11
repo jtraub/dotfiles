@@ -17,4 +17,5 @@ endif
 call plug#begin('~/.vim/plugged')
   " Add plugins here
   " Make sure only single quotes are used
+  Plug 'morhetz/gruvbox'
 call plug#end()
