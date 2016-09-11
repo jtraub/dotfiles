@@ -8,6 +8,9 @@
 [color]
 	ui = auto
 
+[advice]
+	statusHints = false
+
 [alias]
 	# short aliases for the most common commands
 	s = status
