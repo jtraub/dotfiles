@@ -9,19 +9,22 @@
 	ui = auto
 
 [alias]
-	unstage = reset --
-	discard = checkout --
-	staged = diff --cached
-	tags = tag
-	remotes = remote -v
-	branches = branch -a
-	amend = commit --amend
 	# short aliases for the most common commands
 	s = status
 	l = log
 	c = commit
 	d = diff
 	a = add
+
+	# unify listing of objects
+	tags = tag
+	remotes = remote -v
+	branches = branch -a
+
+	unstage = reset --
+	discard = checkout --
+	staged = diff --cached
+	amend = commit --amend
 
 	# Mark a file as "assume unchanged", which means that Git will treat it
 	# as though there are no changes to it even if there are. Useful for
