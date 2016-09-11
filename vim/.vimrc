@@ -1,7 +1,7 @@
 set nocompatible
 
 " plugin manager + plugins list itself
-source ~/.vim/plug.vim
+source ~/.vim/manager.vim
 
 syntax on
 set background=dark
