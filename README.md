@@ -19,3 +19,8 @@ stow git
 If `~/.gitconfig.local` exists, it will be included. The file is included in 
 at the end of `.gitconfig`, thus, allowing you to add or override options in
 `.gitconfig`.
+
+### `~/.vimrc.local`
+
+If the `~/.vimrc.local` exists it will be sourced after `~/.vimrc` which allows
+to overwrite settings from `~/.vimrc`.
