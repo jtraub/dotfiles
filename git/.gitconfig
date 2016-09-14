@@ -41,5 +41,8 @@
 [push]
 	default = simple
 
+[diff]
+	mnemonicprefix = true
+
 [include]
 	path = ~/.gitconfig.local
