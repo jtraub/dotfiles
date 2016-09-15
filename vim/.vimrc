@@ -6,6 +6,10 @@ source ~/.vim/manager.vim
 syntax on
 set background=dark
 
+" no bells
+set noerrorbells
+set novisualbell
+
 let g:gruvbox_italic=1
 colorscheme gruvbox
 
