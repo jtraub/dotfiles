@@ -23,6 +23,7 @@
 	tags = tag
 	remotes = remote -v
 	branches = branch -a
+	stashes = stash list
 
 	unstage = reset --
 	discard = checkout --
