@@ -10,6 +10,9 @@ set background=dark
 set noerrorbells
 set novisualbell
 
+" display relative line numbers
+set relativenumber
+
 let g:gruvbox_italic=1
 colorscheme gruvbox
 
