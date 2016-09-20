@@ -11,8 +11,12 @@ endif
 " plugin manager + plugins list itself
 source ~/.vim/manager.vim
 
+" syntax highlight
 syntax on
+" assume background is dark
 set background=dark
+" load filetype plugins and indentation
+filetype plugin indent on
 
 " no bells
 set noerrorbells
