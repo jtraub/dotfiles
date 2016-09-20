@@ -20,6 +20,11 @@ set novisualbell
 
 " display relative line numbers
 set relativenumber
+" display absolute line number in the current line
+" normally this would turn on absolute numbers for all lines, but in
+" conjunction with relativenumber absolute number is displayed only for
+" current line
+set number
 
 let g:gruvbox_italic=1
 colorscheme gruvbox
