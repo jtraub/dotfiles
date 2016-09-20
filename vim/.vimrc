@@ -30,6 +30,9 @@ set relativenumber
 " current line
 set number
 
+" check spelling for Russian and English (us)
+set spelllang=en_us,ru
+
 let g:gruvbox_italic=1
 colorscheme gruvbox
 " highlight background of line column number since theme doesn't do this

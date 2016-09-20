@@ -1,0 +1,7 @@
+# Ignore binary dictionaries
+*.spl
+# Ignore suggestion files
+*.sug
+
+# # And don't ignore yourself!
+!.gitignore
