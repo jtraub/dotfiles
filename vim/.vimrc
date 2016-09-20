@@ -30,6 +30,9 @@ set relativenumber
 " current line
 set number
 
+" highlight current line
+set cursorline
+
 " check spelling for Russian and English (us)
 set spelllang=en_us,ru
 
