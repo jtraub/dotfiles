@@ -33,6 +33,9 @@ set number
 " highlight current line
 set cursorline
 
+" show incomplete command in the last line
+set showcmd
+
 " check spelling for Russian and English (us)
 set spelllang=en_us,ru
 
