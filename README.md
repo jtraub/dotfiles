@@ -20,6 +20,12 @@ If `~/.gitconfig.local` exists, it will be included. The file is included in
 at the end of `.gitconfig`, thus, allowing you to add or override options in
 `.gitconfig`.
 
+### `~/.muttrc.local`
+
+File `~/.muttrc.local` should exist. It might be empty, but it should present
+and readable. It is recommended to put account data in this file to avoid
+accidental credentials exposure through git repository.
+
 ### `~/.vimrc.local`
 
 If the `~/.vimrc.local` exists it will be sourced after `~/.vimrc` which allows

@@ -1,0 +1,7 @@
+set realname = "Константин Михайлов"
+set folder = "imaps://imap.gmail.com"
+set spoolfile = "+INBOX"
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+
+source ~/.muttrc.local
