@@ -1,0 +1,5 @@
+# ignore folders 
+/*/
+
+# # And don't ignore yourself!
+!.gitignore

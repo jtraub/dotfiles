@@ -6,6 +6,11 @@ set postponed = "+[Gmail]/Drafts"
 
 set editor = vim
 
+# caching
+set header_cache = ~/.mutt/cache/headers
+# this requires mutt 1.5.12 or higher
+set message_cachedir = ~/.mutt/cache/messages
+
 # colorscheme
 source ~/.mutt/tomorrow-night
 
