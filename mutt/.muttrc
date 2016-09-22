@@ -6,4 +6,7 @@ set postponed = "+[Gmail]/Drafts"
 
 set editor = vim
 
+# colorscheme
+source ~/.mutt/tomorrow-night
+
 source ~/.muttrc.local
