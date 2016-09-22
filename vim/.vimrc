@@ -18,6 +18,11 @@ set background=dark
 " load filetype plugins and indentation
 filetype plugin indent on
 
+" use utf-8 encoding everywhere
+set encoding=utf-8
+" save files without byte order mark (BOM)
+set nobomb
+
 " no bells
 set noerrorbells
 set novisualbell
