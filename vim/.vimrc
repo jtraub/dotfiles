@@ -23,6 +23,10 @@ set encoding=utf-8
 " save files without byte order mark (BOM)
 set nobomb
 
+" allow backspace to delete join lines, delete over start position of insert
+" and delete autoindentation in insert mode
+set backspace=eol,indent,start
+
 " no bells
 set noerrorbells
 set novisualbell
