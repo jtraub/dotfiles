@@ -27,6 +27,9 @@ set nobomb
 " and delete autoindentation in insert mode
 set backspace=eol,indent,start
 
+" increase history size
+set history=1000
+
 " no bells
 set noerrorbells
 set novisualbell
