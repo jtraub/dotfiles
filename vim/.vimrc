@@ -42,6 +42,10 @@ set number
 " highlight current line
 set cursorline
 
+" show possible completions in command line
+set wildmenu
+" complete till longest common string then each full match
+set wildmode=longest,full
 " show incomplete command in the last line
 set showcmd
 
