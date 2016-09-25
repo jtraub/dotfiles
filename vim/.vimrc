@@ -55,10 +55,10 @@ set showcmd
 " check spelling for Russian and English (us)
 set spelllang=en_us,ru
 
-let g:gruvbox_italic=1
+let g:gruvbox_italic = 1
+" highlight bacjground of number column
+let g:gruvbox_number_column = 'dark0_soft'
 colorscheme gruvbox
-" highlight background of line column number since theme doesn't do this
-hi LineNr ctermbg=236
 
 " include ~/.vimrc.local if it exists
 if filereadable(expand('~/.vimrc.local'))
