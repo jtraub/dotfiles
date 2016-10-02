@@ -11,6 +11,9 @@ set header_cache = ~/.mutt/cache/headers
 # this requires mutt 1.5.12 or higher
 set message_cachedir = ~/.mutt/cache/messages
 
+set sort = threads
+set sort_aux = reverse-last-date-received
+
 # colorscheme
 source ~/.mutt/tomorrow-night
 
