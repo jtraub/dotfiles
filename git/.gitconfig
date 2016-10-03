@@ -45,5 +45,8 @@
 [diff]
 	mnemonicprefix = true
 
+[merge]
+	tool = vimdiff
+
 [include]
 	path = ~/.gitconfig.local
