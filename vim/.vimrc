@@ -44,7 +44,8 @@ set number
 
 " highlight current line
 set cursorline
-
+" enable modeline (setting vim options) support in files
+set modeline
 " show possible completions in command line
 set wildmenu
 " complete till longest common string then each full match
