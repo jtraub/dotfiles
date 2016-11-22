@@ -42,6 +42,12 @@ set relativenumber
 " current line
 set number
 
+" highlight search items
+set hlsearch
+set incsearch
+set smartcase
+set ignorecase
+
 " highlight current line
 set cursorline
 " enable modeline (setting vim options) support in files
