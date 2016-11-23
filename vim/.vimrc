@@ -62,6 +62,10 @@ set showcmd
 " check spelling for Russian and English (us)
 set spelllang=en_us,ru
 
+" http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
+" insert longest common text of all matches
+set completeopt=longest,menuone
+
 let g:gruvbox_italic = 1
 " highlight bacjground of number column
 let g:gruvbox_number_column = 'dark0_soft'
