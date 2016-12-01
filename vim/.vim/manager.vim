@@ -18,6 +18,9 @@ call plug#begin('~/.vim/plugged')
   " Add plugins here
   " Make sure only single quotes are used
   Plug 'morhetz/gruvbox'
+  " required by EditorConfig for vim without +fixendofline option
+  Plug 'vim-scripts/PreserveNoEOL'
+  Plug 'editorconfig/editorconfig-vim'
   Plug 'kiryph/vim-vinegar'
   Plug 'mikewadsten/vim-gitwildignore'
   Plug 'nathangrigg/vim-beancount', { 'for': 'beancount' }
