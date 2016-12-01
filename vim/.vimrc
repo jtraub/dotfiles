@@ -76,6 +76,9 @@ let g:gruvbox_italic = 1
 let g:gruvbox_number_column = 'dark0_soft'
 colorscheme gruvbox
 
+" tree-like listing of directories in netrw
+let g:netrw_liststyle = 3
+
 " include ~/.vimrc.local if it exists
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
