@@ -18,6 +18,8 @@ call plug#begin('~/.vim/plugged')
   " Add plugins here
   " Make sure only single quotes are used
   Plug 'morhetz/gruvbox'
+  Plug 'kiryph/vim-vinegar'
+  Plug 'mikewadsten/vim-gitwildignore'
   Plug 'nathangrigg/vim-beancount', { 'for': 'beancount' }
   Plug 'mileszs/ack.vim'
 call plug#end()
