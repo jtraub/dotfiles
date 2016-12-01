@@ -21,6 +21,8 @@ call plug#begin('~/.vim/plugged')
   " required by EditorConfig for vim without +fixendofline option
   Plug 'vim-scripts/PreserveNoEOL'
   Plug 'editorconfig/editorconfig-vim'
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
   Plug 'kiryph/vim-vinegar'
   Plug 'mikewadsten/vim-gitwildignore'
   Plug 'nathangrigg/vim-beancount', { 'for': 'beancount' }
