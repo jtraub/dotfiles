@@ -66,6 +66,11 @@ set spelllang=en_us,ru
 " insert longest common text of all matches
 set completeopt=longest,menuone
 
+" open new vsplits to the right
+" and new splits below
+set splitbelow
+set splitright
+
 let g:gruvbox_italic = 1
 " highlight bacjground of number column
 let g:gruvbox_number_column = 'dark0_soft'
