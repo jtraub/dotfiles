@@ -7,3 +7,6 @@
 # Vim
 *~
 *.sw?
+
+# direnv files
+.envrc
