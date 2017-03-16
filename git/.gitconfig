@@ -27,6 +27,7 @@
 
 	unstage = reset --
 	discard = checkout --
+	partialdiscard = checkout -p --
 	staged = diff --cached
 	amend = commit --amend
 
