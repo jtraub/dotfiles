@@ -48,6 +48,9 @@ set incsearch
 set smartcase
 set ignorecase
 
+" enable mouse in all modes
+set mouse=a
+
 " highlight current line
 set cursorline
 " enable modeline (setting vim options) support in files
