@@ -74,6 +74,8 @@ set completeopt=longest,menuone
 set splitbelow
 set splitright
 
+let mapleader="\<Space>"
+
 let g:gruvbox_italic = 1
 " highlight bacjground of number column
 let g:gruvbox_number_column = 'dark0_soft'
