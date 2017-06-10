@@ -28,4 +28,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'nathangrigg/vim-beancount', { 'for': 'beancount' }
   Plug 'mileszs/ack.vim'
   Plug 'tpope/vim-surround'
+  Plug 'w0rp/ale'
 call plug#end()
