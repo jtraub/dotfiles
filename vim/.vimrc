@@ -86,6 +86,12 @@ colorscheme gruvbox
 " tree-like listing of directories in netrw
 let g:netrw_liststyle = 3
 
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 if executable('rg')
   let g:ackprg = 'rg --vimgrep --no-heading'
 endif
