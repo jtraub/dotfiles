@@ -86,6 +86,10 @@ colorscheme gruvbox
 " tree-like listing of directories in netrw
 let g:netrw_liststyle = 3
 
+if executable('rg')
+  let g:ackprg = 'rg --vimgrep --no-heading'
+endif
+
 " include ~/.vimrc.local if it exists
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
