@@ -3,6 +3,7 @@
 
 # VS Code
 .vscode
+jsconfig.json
 
 # Vim
 *~
