@@ -92,6 +92,8 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+hi SpellBad cterm=underline
+
 if executable('rg')
   let g:ackprg = 'rg --vimgrep --no-heading'
 endif
