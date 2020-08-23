@@ -51,3 +51,5 @@
 
 [include]
 	path = ~/.gitconfig.local
+[pull]
+	rebase = true
