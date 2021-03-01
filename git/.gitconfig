@@ -40,6 +40,9 @@
 	# Show the files that are currently assume-unchanged
 	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
 
+	# Command to cleanup dirs after makepkg
+	cleanpkg = clean -xdf
+
 [push]
 	default = simple
 
