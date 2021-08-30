@@ -30,6 +30,8 @@
 	partialdiscard = checkout -p --
 	staged = diff --cached
 	amend = commit --amend
+	# skip ci in gitlab
+	push-no-ci = push -o ci.skip
 
 	# Mark a file as "assume unchanged", which means that Git will treat it
 	# as though there are no changes to it even if there are. Useful for
