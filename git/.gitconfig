@@ -58,3 +58,25 @@
 	path = ~/.gitconfig.local
 [pull]
 	rebase = true
+
+[pager]
+	diff = delta
+	log = delta
+	reflog = delta
+	show = delta
+
+[delta]
+	diff-highlight = true
+	file-style = normal
+	plus-style = syntax "#333B2F"
+	line-numbers-minus-style = red
+	line-numbers-plus-style = green
+	plus-emph-style = syntax "#276109"
+	minus-style = syntax "#462b2a"
+	minus-emph-style = syntax "#67130f"
+	minus-empty-line-marker-style = normal
+	plus-empty-line-marker-style = normal
+	zero-style = syntax
+	hunk-header-style = omit
+	line-numbers = true
+	syntax-theme = gruvbox-dark
