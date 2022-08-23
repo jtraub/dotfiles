@@ -64,6 +64,7 @@
 	log = delta
 	reflog = delta
 	show = delta
+	blame = delta
 
 [delta]
 	diff-highlight = true
