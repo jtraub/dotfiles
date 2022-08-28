@@ -14,14 +14,14 @@ local options = {
     categories = "sponsor,intro,outro,interaction,selfpromo",
 
     -- Categories to skip automatically
-    skip_categories = "sponsor,selfpromo",
+    skip_categories = "sponsor",
 
     -- If true, sponsored segments will only be skipped once
     skip_once = true,
 
     -- Note that sponsored segments may ocasionally be inaccurate if this is turned off
     -- see https://blog.ajay.app/voting-and-pseudo-randomness-or-sponsorblock-or-youtube-sponsorship-segment-blocker
-    local_database = false,
+    local_database = true,
 
     -- Update database on first run, does nothing if local_database is false
     auto_update = true,
