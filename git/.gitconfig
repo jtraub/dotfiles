@@ -69,6 +69,7 @@
 	blame = delta
 
 [delta]
+	navigate = true
 	diff-highlight = true
 	file-style = normal
 	plus-style = syntax "#333B2F"
