@@ -53,9 +53,11 @@
 
 [merge]
 	tool = vimdiff
+	conflictstyle = diff3
 
 [include]
 	path = ~/.gitconfig.local
+
 [pull]
 	rebase = true
 
