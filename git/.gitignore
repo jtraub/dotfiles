@@ -14,3 +14,6 @@ jsconfig.json
 
 # nvm config files files
 .nvmrc
+
+# pyenv settings
+.python-version
