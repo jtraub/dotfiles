@@ -25,3 +25,13 @@ alias ...='cd ../..'
 # su should start a login shell
 # see https://wiki.archlinux.org/title/Su#Login_shell for details
 alias su="su -l"
+
+# https://github.com/westandskif/rate-mirrors
+if [ -x "$(command -v rate-mirrors)" ]; then
+    alias update-pacman-mirrors='export MIRRORLIST_TMPFILE="$(mktemp)"; \
+	sudo true;
+	rate-mirrors --save=$MIRRORLIST_TMPFILE --protocol https --entry-country JP --top-mirrors-number-to-retest=10 arch \
+	&& sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup \
+	&& sudo mv $MIRRORLIST_TMPFILE /etc/pacman.d/mirrorlist \
+	&& unset MIRRORLIST_TMPFILE'
+fi
