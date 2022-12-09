@@ -17,3 +17,6 @@ jsconfig.json
 
 # pyenv settings
 .python-version
+
+# ignore default venv created by poetry
+.venv
